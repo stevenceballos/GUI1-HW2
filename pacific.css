@@ -1,0 +1,104 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: #00569f;
+	background-image: url('ptrbackground.jpg');
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+	grid-area: nav;
+	width: 250px;
+	background-color: #93cef0;
+}
+nav a{
+	text-decoration: none;
+	color: #000033;
+	font-weight: bold;
+}
+nav a:visited {
+	color: #49659f;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+nav ul {
+	padding-left: 10%;
+	font-size: 1.2em;
+	list-style-type: none;
+	float: left;
+	width: auto;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+header {
+	grid-area: header;
+	color: #FFFFFF;
+	background-image: url('sunset.jpg');
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #000033;
+	width: 100%;
+}
+img{
+	margin-right: 20px;
+	margin-bottom: 3%;
+	float: left;
+}
+.resort {
+	color: #3399CC;
+	font-weight: bold;
+}
+#contact {
+	font-size: 90%;
+}
+#content{
+	grid-area: content;
+	padding-left: 20px;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	background-color: #FFFFFF;
+	list-style-image: url('marker.gif');
+	list-style-position: inside;
+}
+#wrapper{
+	display: grid;
+	grid-template-areas:
+	'header header'
+	'nav content'
+	'nav footer';
+	grid-gap: none;
+	position: center;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	min-width: 600px;
+	background-size: cover;
+	background-color: #FFFFFF;
+	grid-template-columns: 200px auto;
+}
+dt {
+	color: #000033;
+}
+footer {
+	grid-area: footer;
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #FFFFFF;
+	font-style: italic;
+	font-size: small;
+	padding: 0px 0px 20px 20px;
+}
+
