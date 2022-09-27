@@ -1,3 +1,9 @@
+/*
+File: pacific.css
+HW 2 GUI Assignment: Style a site with external CSS
+Steven Ceballos, UMass Lowell Computer Science, steven_ceballos@student.uml.edu
+September 22, 2022 at 2:32 PM
+*/
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
